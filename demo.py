@@ -17,9 +17,9 @@ def main():
             if evento.type == pygame.QUIT:
                 salir=True
 
-        reloj1.tick(30)
+        reloj1.tick(20)
         pantalla.fill(blanco)
-        pantalla.blit(s1,[0,500])
+        pantalla.blit(s1,[10,500])
         pygame.display.update()
 
     pygame.quit()
