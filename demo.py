@@ -6,7 +6,7 @@ def main():
     salir=False
     reloj1=pygame.time.Clock()
     blanco=(240,255,252)
-    color=(250,68,35)
+    color=(250,78,55)
     s1=pygame.Surface((800,100))
     s1.fill(color)
 
